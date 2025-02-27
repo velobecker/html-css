@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div:hover {
+    color: red;
+
+}
+div > p {           /* ">" filho do div */
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: red;
+    width: 150px;
+}

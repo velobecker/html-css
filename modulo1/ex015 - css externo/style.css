@@ -1,0 +1,13 @@
+@charset "UTF-8";               /* @ são regras do arquivo */
+body {
+        background-color: bisque;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+        color: brown;
+}
+
+p {
+        text-align: justify;
+}

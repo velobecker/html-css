@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto";
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header {
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.356);
+}
+
+nav {
+    background-color: rgb(93, 93, 93);
+    padding: 8px;
+    text-align: right;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.467);
+    border-radius: 7px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav > a:hover {
+    font-size: 22px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.36);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    /*  shorthand
+    border-radius: 7px 7px 7px 7px;
+    */
+}
+
+article {
+    background-color: lightgrey;
+    padding: 5px;
+}
+
+article > aside {
+    background-color: rgb(142, 142, 142);
+    text-indent: 30px;
+}
+
+footer {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+div#bola {
+
+    height: 100px;
+    width: 100px;
+    margin: 10px auto;
+    background-color: aquamarine;
+    border-radius: 50px;
+}

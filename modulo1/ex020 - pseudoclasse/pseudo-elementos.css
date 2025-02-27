@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto";
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a::after {
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgrey;
+    font-size: 12px;
+}

@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a img:hover {
+    transform: scale(1.05);
+}

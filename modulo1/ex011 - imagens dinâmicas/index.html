@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>imagens dinâmicas</title>
+</head>
+<body>
+    <h1>aprendendo a colocar um áudio no saite</h1>
+    <p>viaja reggaeeeeiro</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/cabeca-de-gelo-(velobecker-mix).mp3" type="audio/mpeg"> <!-- pode adicionar mais sources para caso a primeira falhar em carregar (mesmo código) -->
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio. <a href="midia/cabeca-de-gelo-(velobecker-mix).mp3" target="_blank" type="audio/mpeg">Clique aqui para baixá-lo</a></p> <!-- aparecerá se nenhuma source funcionar-->
+    </audio>
+    <h1>imagem dinâmica</h1>
+    <p>tente abrir este site em dispositivos diferentes ou mude o tamanho da janela do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/P.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="images/M.jpg" type="image/jpg">
+        <img src="images/G.jpg" alt="imagem flexível">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto";
+}
+
+h1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+
+    /*  shorthand
+    border: 10px solid darkslategray;
+    */
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    /*  shorthand
+    padding: 10px 10px 10px 10px;
+    */
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    /*  shorthand pode ser feito só com 1 ou 2 valores que serão duplicados para os outros valores
+    margin: 10px;                           (10px 10px 10px 10px)
+    margin: 10px 20px;                      (10px 20px 10px 20px)
+    */
+
+    /*
+    margin: auto;                           centraliza
+    margin: 10px auto 10px auto;            (define top e bottom mas deixa lados automáticos (centralizados))
+    */
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+
+    /*  shorhand
+    outline: 5px dashed salmon;
+    */
+
+    /*
+    display: block;                         em bloco
+    display: inline;                        na linha
+    display: inline-block                   linha passa a ter algumas propriedades de bloco
+    */
+}
+
+a {
+    border-width: 10px;
+    border-style: groove;
+    border-color: red;
+    border-radius: 9px;
+}

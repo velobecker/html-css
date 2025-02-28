@@ -8,6 +8,7 @@ header {
     color: #ffffff;
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
+    box-shadow: 2px 2px 10px 0px #000;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -23,6 +24,7 @@ main.container {
     padding: 10px 10px;
     gap: 20px;
     border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 10px 0px #000;
 }
 .section {
     background: #f5f5f5;

@@ -8,7 +8,6 @@ header {
     color: #ffffff;
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
-    box-shadow: 2px 2px 10px 0px #000;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -17,6 +16,10 @@ body {
     padding: 20px;
     background-image: url(background/mar.jpg);
 }
+div.master {
+    box-shadow: 2px 2px 10px 0px #000;
+    border-radius: 10px;
+}
 main.container {
     background-color: #333;
     display: grid;
@@ -24,7 +27,6 @@ main.container {
     padding: 10px 10px;
     gap: 20px;
     border-radius: 0px 0px 10px 10px;
-    box-shadow: 2px 2px 10px 0px #000;
 }
 .section {
     background: #f5f5f5;

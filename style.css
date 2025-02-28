@@ -12,7 +12,7 @@ header {
 body {
     font-family: 'Roboto', sans-serif;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
     padding: 20px;
     background-image: url(background/mar.jpg);
 }

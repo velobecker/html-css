@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    height: 97vh;
+    border: 1px dashed black;
+    background-image: url(images/pattern003.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+div.bloco{
+    background-image: url(images/wallpaper002.jpg);
+    height: 160px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+div#q1 {
+
+}
+
+div#q2 {
+    background-position: left center;
+}
+
+div#q3 {
+    background-position: right bottom;
+}
+
+div#q4 {
+    background-position: center center;
+}
+

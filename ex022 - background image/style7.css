@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto';
+}
+
+#container {
+    background-color: purple;
+    background-image: url(images/target001.png);
+    background-size: 100% 100%;
+
+    position: relative;     /*  padrão  */
+    height: 95vh;
+    padding: 10px;
+
+}
+
+#conteudo {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    background-image: url(images/target001.png);
+    background-size: 100% 100%;
+
+    left: 50%;
+    top: 50%;
+    
+    transform: translate(-50%, -50%)
+}

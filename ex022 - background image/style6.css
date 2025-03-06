@@ -5,22 +5,32 @@
 body {
     height: 97vh;
     font-family: 'Roboto';
+    text-align: justify;
+    /* 
     background-color: black;
     background-image: url(images/wallpaper002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+
+        shorthand
+    background: color > image > position > repeat > size [não funciona, colocar o size depois] > attachment;
+    */
+
+    background: black url(images/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
     
-    /*
+    /*  bgsize
     auto        automático
     contain     exibe 100% da image
     cover       cobre 100% do background 
-    */
+    */    
 }
 
 main {
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 1px solid darkblue;

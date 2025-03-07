@@ -3,22 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 table {
-    width: 400px;
-    height: 400px;
     border-collapse: collapse;
+    width: 400px;
 }
 
-tr.linha {
-    background-color: lightgray;
+thead, tfoot {
+    background-color: grey;
+    color: white;
 }
 
-td {
+td, th {
     border: 1px solid black;
-    padding: 8px;
+    padding: 10px;
     text-align: center;
     vertical-align: top;
 }
 
-td.dado {
-    background-color: yellowgreen;
+.num {
+    text-align: right;
 }

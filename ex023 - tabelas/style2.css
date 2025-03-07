@@ -2,13 +2,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+caption {
+    text-transform: capitalize;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
 table {
     border-collapse: collapse;
     width: 400px;
+    border: 1px solid black;
+    position: relative;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: #333;
 }
 
 thead, tfoot {
-    background-color: grey;
+    background-color: #333;
     color: white;
 }
 
@@ -17,6 +34,10 @@ td, th {
     padding: 10px;
     text-align: center;
     vertical-align: top;
+}
+
+tbody > tr:nth-child(odd) {     /* pode usar '2n' e '2n-1' */
+    background-color: lightgray;
 }
 
 .num {

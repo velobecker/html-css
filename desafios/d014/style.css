@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.medias {
+    background-color: #333;
+    color: white;
+}
+
+.titulomedias {
+    text-align: left;
+}

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'roboto';
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.cnome {
+    background-color: cornflowerblue;
+}
+
+.cidade {
+    background-color: bisque;
+}

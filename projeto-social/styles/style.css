@@ -8,7 +8,7 @@
 
 html, body {
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     background-color: black;
 }
 
@@ -23,7 +23,7 @@ main {
     position: relative;
 }
 
-#telefone {
+section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,13 +33,42 @@ main {
     width: 311px;
     background-color: blue;
     background: url(../images/frame-iphone.png) no-repeat;
-
 }
 
-#home {
+#tela {
     position: relative;
     top: 80px;
     left: 22px;
     width: 267px;
     height: 471px;
+}
+
+section#telefone > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    height: 627px;
+    width: 311px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+    box-sizing: border-box;
+    ;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.205);
+    transform: translate(-2px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.25s, border 0.18s;
 }

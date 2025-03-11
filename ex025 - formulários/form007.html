@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>form7</title>
+</head>
+<body>
+    <h1>test 7</h1>
+    <form  method="post" autocomplete="on" action="cadastro.php">
+        
+        <p>
+            <label for="iest">estado</label>
+            <select name="est" id="iest">
+                <optgroup label="rios grandes">
+                    <option value="RS">rio grande do sul</option>
+                    <option value="RN">rio grande do norte</option>
+                    <option value="RM">rio grande do meio</option>
+                    <option value="RJ">rio grande de janeiro</option>
+                </optgroup>
+                <optgroup label="matos grossos">
+                    <option value="MS">mato grosso do sul</option>
+                    <option value="MG">mato grosso</option>
+                    <option value="MN">mato grosso do norte</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">profissao</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option>administrador</option>
+                <option>contabilista</option>
+                <option>desenvolvedor</option>
+                <option>puta</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">mensagem</label>
+            <textarea name="msg" id="imsg" cols="30" rows="10" maxlength="100"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>form4</title>
+</head>
+<body>
+    <h1>test 5</h1>
+    <form  method="post" autocomplete="on" action="cadastro.php">
+       <fieldset>
+            <legend>checa?</legend>
+             <p>
+                <input type="checkbox" name="sim" id="sim" value="sim"> <label for="sim">sim, checa</label><br>
+                <input type="checkbox" name="nao" id="nao" value="nao" checked> <label for="nao">nao, nao checa</label>
+            </p>
+       </fieldset>
+       <fieldset>
+            <legend>radieia?</legend>
+            <p>
+                <input type="radio" name="radio" id="rsim" value="sim"> <label for="rsim">sim, radieia</label><br>
+                <input type="radio" name="radio" id="rnao" value="nao"> <label for="rnao">nao, nao radieia</label>
+            </p> <!-- precisa ter o mesmo nome para ficar marcado só um deles -->
+       </fieldset>
+       <p>
+        <input type="submit" value="enviar">
+       </p>
+    </form>
+</body>
+</html>

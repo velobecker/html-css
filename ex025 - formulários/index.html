@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>form</title>
 </head>
 <body>
-    
+    <h1>meu primeiro formulário</h1>
+    <form autocomplete="off" method="post" action="cadastro.php">
+
+        <!-- 
+            autocomplete - padrão "on"
+            method -    get - dados não sensíveis, até 3kbytes, apenas texto
+                        post - dados sensíveis, outros arquivos, +3kbytes
+            action - manda os dados para o arquivo definido
+        -->
+
+        <p><label for="inome">nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+
+            <!--
+            label linka a caixa pelo "id"
+            name - é para identificar em php
+            -->
+
+        <p><label for="isobrenome">sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+
+        <p><label for=""></label>
+            <input type="text" name="senha" id="isenha"></p>
+
+        <p>
+            <input type="submit" value="Enviar"></p>
+    </form>
 </body>
 </html>

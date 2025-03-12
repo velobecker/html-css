@@ -35,6 +35,13 @@ h1 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.353);
 }
 
+main div {
+    font-size: 0.5em;
+    text-align: justify;
+    margin: auto;
+    padding: 20px;
+}
+
 img {
     display: block;
     margin: auto;

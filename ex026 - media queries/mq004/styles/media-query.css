@@ -2,6 +2,95 @@
 
 /* outras midias */
 
-@media screen {
+/* medidas
+    pequenas telas: 600px
+    celulares: 600px
+    tablet: 768px
+    pc: 992px
+    tv: 1200px
+
+*/
     
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#phone { display: none;}
+    img#tablet { display: block;}
+    img#pc { display: none;}
+    img#tv { display: none;}
+    img#print { display: none;}
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    main {
+        width: 70vw;
+    }
+
+    main div {
+        font-size: 0.6em;
+    }
+
+    img#phone { display: none;}
+    img#tablet { display: none;}
+    img#pc { display: block;}
+    img#tv { display: none;}
+    img#print { display: none;}
+}
+
+@media screen and (min-width: 1921px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main {
+        width: 50vw;
+    }
+
+    main div {
+        font-size: 1em;
+    }
+    
+    img#phone { display: none;}
+    img#tablet { display: none;}
+    img#pc { display: none;}
+    img#tv { display: block;}
+    img#print { display: none;}
+}
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main::after {
+        font-size: 0.5em;
+        content: 'essa impressão matou 1 arvore e gastou 300l de agua'
+    }
+
+    main h1 {
+        color: black;
+        text-shadow: none;
+    }
+
+    
+
+    img#phone { display: none;}
+    img#tablet { display: none;}
+    img#pc { display: none;}
+    img#tv { display: none;}
+    img#print { display: none;}
 }

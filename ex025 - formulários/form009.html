@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>form8</title>
+</head>
+<body>
+    <h1>test 8</h1>
+    <form  method="post" autocomplete="on" action="cadastro.php">
+        <p>
+            <label for="inum">numero</label>
+            <input type="range" name="num" id="inum" min="0" max="10" value="0" oninput="ival.innerHTML = Number(inum.value)">
+            <output id="ival"></output>
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+        </p>
+    </form>
+</body>
+</html>

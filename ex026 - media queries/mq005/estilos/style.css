@@ -30,7 +30,7 @@ span#burguer {
     cursor: pointer;
 }
 span#burguer:hover {
-    background-color: lightgray;
+    background-color: rgb(100, 100, 100);
     color: #333;
 }
 

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color1: #e2d4b7ff;        /* dutch white */
+    --color2: #a1a499ff;        /* ash gray */
+    --color3: #9c9583ff;        /* battleship gray */
+    --color4: #22577aff;        /* lapis lazuli */
+    --color5: #111d13ff;        /* eerie black */
+}
+
+* {
+    font-family: "Roboto";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color1);
+}
+
+section#login {
+    position: relative;
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css" media="all">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+          <div id="header">
+            <h1>login</h1>
+            <p></p>
+          </div>
+          <form action="login.php" id="form">
+            <div class="field">
+              <input type="text" name="username" id="user" required autocomplete="username" minlength="5" maxlength="12" placeholder="username">
+            </div>
+            <div class="field">
+              <input type="password" name="password" id="password" required autocomplete="current-password" minlength="8" maxlength="20" placeholder="password">
+            </div>
+            <div class="button">
+              <input type="submit" value="log in">
+            </div>
+            <div class="button">
+              <input type="button" value="forgot password">
+            </div>
+          </form>
+        </section>
+    </main>
+</body>
+</html>

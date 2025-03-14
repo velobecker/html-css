@@ -10,12 +10,16 @@
 
 /* tablet */
 @media screen and (min-width: 768px) {
-
+    section#login {
+        width: 400px;
+    }
 }
 
 /* pc */
 @media screen and (min-width: 992px) {
-    
+    section#login {
+        width: 600px;
+    }
 }
 
 /* HD */

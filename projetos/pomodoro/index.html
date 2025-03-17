@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css" media="all">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>pomodoro timer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="timer-section">
+            <h1 id="timer"></h1>
+            <div class="timer-controls">
+                <button id="start">iniciar</button>
+                <button id="pause">pausar</button>
+                <button id="reset">reiniciar</button>
+            </div>
+            <div class="timer-settings">
+                <div class="setting">
+                    <label for="workTime">tempo de estudo (min):</label>
+                    <input type="number" id="workTime" value="25" min="1" max="60">
+                </div>
+                <div class="setting">
+                    <label for="breakTime">tempo de pausa (min):</label>
+                    <input type="number" id="breakTime" value="5" min="1" max="30">
+                </div>
+            </div>
+        </div>
+
+        <div class="tasks-section">
+            <h2>tarefas para a pausa</h2>
+            <ul id="breakTasks"></ul>
+            <div class="task-input">
+                <input type="text" id="newTask" placeholder="Nova tarefa...">
+                <button id="addTask">+</button>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <h2>estatísticas</h2>
+            <div id="stats">
+                <p>ciclos completados hoje: <span id="todayCycles">0</span></p>
+                <p>tempo total de estudo: <span id="totalTime">0h 0m</span></p>
+            </div>
+            <button id="downloadStats">baixar relatório</button>
+        </div>
+    </div>
+    <audio id="workEndSound" src="audio/wide-putin.mp3"></audio>
+    <audio id="breakEndSound" src="audio/final.mp3"></audio>
+    <script src="js/script.js"></script>
+</body>
+</html>

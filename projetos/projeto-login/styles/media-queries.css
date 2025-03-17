@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-:root {
-    --apricot: #f8c9b4;
-    --sage: #bcbd8b;
-    --resada: #717744;
-    --umber: #766153;
-    --drab: #373d20;
-}
-
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, var(--apricot), var(--umber));

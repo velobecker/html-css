@@ -2,15 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 div.container {
     background-color: lightsalmon;
     display: flex;
-    flex-direction: row;
+    flex-flow: row nowrap;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 div.item {
     background-color: lightskyblue;
     border: 1px solid black;
+    padding: 0px 4px 0px 4px;
     text-align: center;
-    padding: 10px;
 }

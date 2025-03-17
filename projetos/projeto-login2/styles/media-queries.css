@@ -15,6 +15,10 @@
         height: 300px;
     }
 
+    div#header > h1 {
+        font-size: 1.2em;
+    }
+
     div#img {
         float: right;
         width: 40%;
@@ -31,6 +35,10 @@
 @media screen and (min-width: 992px) {
     section#login {
         width: 600px;
+    }
+
+    div#header > h1 {
+        font-size: 1.3em;
     }
 
     #rememberinfo {

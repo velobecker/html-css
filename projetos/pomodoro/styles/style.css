@@ -58,6 +58,12 @@ button:hover {
     opacity: 0.9;
 }
 
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: #666666;
+}
+
 .timer-settings {
     margin: 20px 0;
     background-color: var(--dark-accent);

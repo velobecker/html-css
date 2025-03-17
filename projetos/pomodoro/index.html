@@ -13,9 +13,10 @@
 <body>
     <div class="container">
         <div class="timer-section">
-            <h1 id="timer"></h1>
+            <h1 id="timer">25:00</h1>
             <div class="timer-controls">
-                <button id="start">iniciar</button>
+                <button id="start">iniciar estudo</button>
+                <button id="startBreak" disabled>iniciar pausa</button>
                 <button id="pause">pausar</button>
                 <button id="reset">reiniciar</button>
             </div>
@@ -51,6 +52,14 @@
     </div>
     <audio id="workEndSound" src="audio/wide-putin.mp3"></audio>
     <audio id="breakEndSound" src="audio/final.mp3"></audio>
+    
+    <!-- Carregar script após o DOM -->
+    <script>
+        // Verificar se está sendo servido via HTTP
+        if (window.location.protocol === 'file:') {
+            alert('Por favor, use um servidor local para executar este aplicativo.\nEx: Live Server do VSCode');
+        }
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>

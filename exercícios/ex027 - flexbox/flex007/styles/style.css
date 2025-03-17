@@ -2,22 +2,46 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-    box-sizing: border-box;
-}
-
 div.container {
     background-color: lightsalmon;
     display: flex;
-    flex-flow: row nowrap;
-    height: 100px;
-    justify-content: space-evenly;
-    align-items: center;
+    flex: row wrap;
+    height: 200px;
+    align-items: flex-start;
 }
 
 div.item {
     background-color: lightskyblue;
     border: 1px solid black;
-    padding: 0px 4px 0px 4px;
     text-align: center;
+    padding: 20px;
+
+}
+
+div.item#a {
+    
+}
+
+div.item#b {
+
+}
+
+div.item#c {
+    
+}
+
+div.item#d {
+    order: -1;
+}
+
+div.item#e {
+    
+}
+
+div.item#f {
+    
+}
+
+div.item#g {
+    
 }

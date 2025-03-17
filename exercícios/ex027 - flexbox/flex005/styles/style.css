@@ -3,21 +3,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
+    font-family: "roboto";
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-div.container {
+body {
     background-color: lightsalmon;
+}
+
+main {
+    background-color: lightgreen;
+    height: 90vh;
+    width: 90vw;
+
     display: flex;
     flex-flow: row nowrap;
-    height: 100px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
-div.item {
-    background-color: lightskyblue;
-    border: 1px solid black;
-    padding: 0px 4px 0px 4px;
-    text-align: center;
+section {
+    background-color: lightseagreen;
+    height: 200px;
+    width: 200px;
 }

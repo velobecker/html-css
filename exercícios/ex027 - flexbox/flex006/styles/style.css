@@ -8,16 +8,17 @@
 
 div.container {
     background-color: lightsalmon;
+
     display: flex;
-    flex-flow: row nowrap;
-    height: 100px;
-    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    height: 400px;
     align-items: center;
 }
 
 div.item {
     background-color: lightskyblue;
     border: 1px solid black;
-    padding: 0px 4px 0px 4px;
+    padding: 40px;
     text-align: center;
 }

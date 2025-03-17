@@ -35,6 +35,7 @@ section {
 }
 
 section#login {
+    display: block;
     background-color: white;
     width: 250px;
     height: 474px;

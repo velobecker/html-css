@@ -37,7 +37,7 @@ section {
 section#login {
     background-color: var(--color1);
     width: 250px;
-    height: 250px;
+    height: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,7 +55,19 @@ div#header {
     padding: 4px 0px 4px 10px;
 }
 
+div#img {
+    display: block;
+    background-image: url(../images/ryunosuke-kikuno-fLJ4LLSEzhE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    width: 100%;
+    height: 140px;
+    background-size: cover;
+}
+
 form {
+    display: block;
     padding: 10px;
 }
 

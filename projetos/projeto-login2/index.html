@@ -11,33 +11,49 @@
     <title>Document</title>
 </head>
 <body>
+
     <main>
+
         <section id="login">
+
           <div id="header">
             <h1>login</h1>
             <p></p>
           </div>
+
+          <div id="img"></div>           <!-- imagem -->
+
           <form action="login.php" id="form">
-            <div class="field">
+
+            <div class="field">          <!-- campo login -->
               <input type="text" name="username" id="user" required autocomplete="username" minlength="5" maxlength="12" placeholder="username">
             </div>
-            <div class="field">
+
+            <div class="field">          <!-- campo senha -->
               <input type="password" name="password" id="password" required autocomplete="current-password" minlength="8" maxlength="20" placeholder="password">
             </div>
-            <div id="rememberinfo">
+
+            <div id="rememberinfo">      <!-- check remember -->
               <input type="checkbox" name="remember" id="remember">
               <label for="remember">remember login info</label>
             </div>
-            <div id="buttons">
+
+            <div id="buttons">           <!-- botão submit -->
               <div class="button">
                 <input type="submit" value="log in">
               </div>
-              <div class="button">
+
+              <div class="button">       <!-- botão forgot -->
                 <input type="button" value="forgot password">
+              </div>
+
             </div>
-            </div>
+
           </form>
+
         </section>
+        
     </main>
+
 </body>
 </html>

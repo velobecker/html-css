@@ -12,6 +12,18 @@
 @media screen and (min-width: 768px) {
     section#login {
         width: 400px;
+        height: 300px;
+    }
+
+    div#img {
+        float: right;
+        width: 40%;
+        height: 100%
+    }
+
+    form {
+        float: left;
+        width: 60%;
     }
 }
 
@@ -19,6 +31,10 @@
 @media screen and (min-width: 992px) {
     section#login {
         width: 600px;
+    }
+
+    #rememberinfo {
+        padding-left: 34px;
     }
 }
 

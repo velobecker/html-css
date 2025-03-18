@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+div.container {
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.item {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+}
+
+div.item#a {
+    flex: 1 0 200px;
+    /* grow, shrink, basis */
+}
+
+div.item#b {
+    flex: 1 1 150px;
+}
+
+div.item#c {
+    flex: 1 8 auto;
+}

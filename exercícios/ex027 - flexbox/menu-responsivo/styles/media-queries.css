@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* medidas
+    pequenas telas: 600px
+    celulares: 600px
+    tablet: 768px
+    pc: 992px
+    : 1921px
+*/
+
+/* tablet */
+@media screen and (min-width: 768px) {
+
+}
+
+/* pc */
+@media screen and (min-width: 992px) {
+    
+}
+
+/* HD */
+@media screen and (min-width: 1200px) {
+    
+}
+
+/* TV/4K */
+@media screen and (min-width: 1921){
+    
+}

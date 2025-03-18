@@ -8,6 +8,27 @@
     : 1921px
 */
 
+@media screen and (max-width: 580px) {
+    header {
+        flex-flow: column nowrap;
+    }
+
+    header > h1 {
+        flex: 0 0 auto;
+    }
+
+    nav {
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        width: 90vw;
+    }
+
+    a.item {
+        text-align: center;
+        margin: 5px;
+    }
+}
+
 /* tablet */
 @media screen and (min-width: 768px) {
 

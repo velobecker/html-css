@@ -7,7 +7,7 @@
     class           .   classe de elementos. um elemento pode ter mais de uma classe
     pseudo-class    :   relacionada ao estado de um elemento
     pseudo-element  ::  funcionam para elementos, para os id também para as classes
-    children        >   dá uma função para um <> dentro de outra <>
+    children        >   dá uma função para uma <tag> dentro de outra <tag>
 */
 
 body {
